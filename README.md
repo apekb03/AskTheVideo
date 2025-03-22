@@ -1,5 +1,5 @@
 # AskTheVideo
-This project generates a transcript from a YouTube video using OpenAI's Whisper model. 
-The transcript is then processed with LangChain to create vector embeddings—allowing for semantic similarity search and question answering.  
-After embedding the transcript, I built a simple chatbot that can answer user queries about the video. 
-The questions are kept intentionally simple to reduce the chances of hallucination and ensure accurate responses.
+
+This project combines OpenAI Whisper for video transcription, LangChain for embedding and semantic search, and an LLM to generate accurate, context-aware responses.
+ 
+The questions range from simple "what is the videoa about" to "divide  this polynomial"
