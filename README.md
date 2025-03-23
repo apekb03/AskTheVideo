@@ -1,5 +1,3 @@
-# AskTheVideo
+VectorVision is a Retrieval-Augmented Generation (RAG) system that allows users to ask natural language questions about video content and receive intelligent, grounded answers based on the video's transcript.
 
-This project combines OpenAI Whisper for video transcription, LangChain for vector embedding and semantic search, and an LLM to generate accurate, context-aware responses.
-The queries are at the end of the file, and they range from simple questions like "what is the videoa about" to specific questions like "divide  this polynomial".
-
+VectorVision converts video files into text, chunks and embeds the transcript, stores it in a vector database, and uses semantic similarity to retrieve the most relevant content when a question is asked. This retrieved content is then passed to an LLM (like GPT-4) to generate an accurate and context-aware answer.
